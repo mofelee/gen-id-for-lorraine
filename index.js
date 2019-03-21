@@ -35,7 +35,7 @@ const isEndWith9 = idprefix17 => {
   );
 };
 
-console.log(isEndWith9('61011119800131004'));
+//console.log(isEndWith9('61011119800131004'));
 
 const genIdprefix17 = template => {
   let v = template;
@@ -45,7 +45,7 @@ const genIdprefix17 = template => {
 
   return v;
 };
-console.log(genIdprefix17(template));
+//console.log(genIdprefix17(template));
 
 let isValid = false;
 let validNumber;
